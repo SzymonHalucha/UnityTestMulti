@@ -1,0 +1,7 @@
+{
+  "name": "com.kiris.soarchitecture",
+  "version": "1.1.8",
+  "description": "Scriptable object based architecture",
+  "displayName": "SO Architecture",  
+  "unity": "2020.1"
+}

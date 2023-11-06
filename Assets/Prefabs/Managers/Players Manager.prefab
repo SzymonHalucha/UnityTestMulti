@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1693265827923542653
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1693265827923542655}
+  - component: {fileID: 1693265827923542652}
+  - component: {fileID: 2831136365065686186}
+  m_Layer: 0
+  m_Name: Players Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1693265827923542655
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1693265827923542653}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1693265827923542652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1693265827923542653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e35fd9974922a84c91d7214be00e6a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnInit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 2daec8a57523cde46862742477e5a865, type: 2}
+        m_TargetAssemblyTypeName: Variable`1[[TestMulti.Game.Managers.PlayersManager,
+          Assembly-CSharp
+        m_MethodName: set_Value
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1693265827923542652}
+          m_ObjectArgumentAssemblyTypeName: TestMulti.Game.Managers.PlayersManager,
+            Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  playerPrefab: {fileID: 1848402440214512618, guid: 0b1537be386ee44448292e223de3c41d, type: 3}
+  sceneManager: {fileID: 11400000, guid: efc3787dd2e244548a850d2294b33117, type: 2}
+  servicesManager: {fileID: 11400000, guid: 479190df3f7929a4093c89581f087fa0, type: 2}
+  teams:
+  - {fileID: 11400000, guid: d4f17f5bd11946341ac0bb768d361a4f, type: 2}
+  - {fileID: 11400000, guid: f2714ad26373d3f4f86deec086b6a145, type: 2}
+  spawnPoints:
+  - <Position>k__BackingField: {x: -18.874805, y: -1.9110851}
+    <Team>k__BackingField: {fileID: 11400000, guid: d4f17f5bd11946341ac0bb768d361a4f, type: 2}
+  - <Position>k__BackingField: {x: -14.978766, y: -8.109197}
+    <Team>k__BackingField: {fileID: 11400000, guid: d4f17f5bd11946341ac0bb768d361a4f, type: 2}
+  - <Position>k__BackingField: {x: 17.148111, y: -8.315801}
+    <Team>k__BackingField: {fileID: 11400000, guid: f2714ad26373d3f4f86deec086b6a145, type: 2}
+  - <Position>k__BackingField: {x: 18.491034, y: -1.6528301}
+    <Team>k__BackingField: {fileID: 11400000, guid: f2714ad26373d3f4f86deec086b6a145, type: 2}
+--- !u!114 &2831136365065686186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1693265827923542653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlobalObjectIdHash: 951099334
+  AlwaysReplicateAsRoot: 0
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1

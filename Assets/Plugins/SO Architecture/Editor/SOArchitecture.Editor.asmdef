@@ -1,0 +1,18 @@
+{
+    "name": "SOArchitecture.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:c67246d536ebb0745b3b6047e53cfac9"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

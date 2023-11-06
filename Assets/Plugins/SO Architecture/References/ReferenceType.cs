@@ -1,0 +1,1 @@
+﻿public enum ReferenceType { Constant = 0, ScriptableObject = 1, Instance = 2 }
